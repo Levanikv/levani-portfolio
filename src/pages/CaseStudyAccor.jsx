@@ -141,7 +141,7 @@ export default function CaseStudyAccor() {
             </div>
 
             <div className="hero-description cs">
-              <p>Comment on a restructuré l'architecture tokens du DS mobile d'Accor, aligné les équipes web et app, et embarqué les designers dans une refonte de fond — sans jamais la leur imposer.</p>
+              <p>Restructuration complète de l'architecture tokens du DS mobile d'Accor. Alignement web-app, pipeline automatisée, et adoption terrain par des designers qui ne demandaient rien. Voici comment.</p>
             </div>
           </div>
         </div>
@@ -455,7 +455,7 @@ export default function CaseStudyAccor() {
             </div>
 
             <div className="prose">
-              <p className="lead reveal-up">Construire le système, c'était 30% du travail. Le faire adopter, les 70% restants.</p>
+              <p className="lead reveal-up">Construire le système, c'était 30% du boulot. Convaincre les gens de l'utiliser, les 70% restants.</p>
               <p>Plutôt qu'imposer les nouveaux tokens par décret, on a mis en place trois leviers : <strong>former, donner à manipuler, accompagner au quotidien.</strong> Aucun ne suffit seul. Les trois ensemble, ça marche.</p>
             </div>
 
@@ -523,7 +523,7 @@ export default function CaseStudyAccor() {
             </div>
 
             <div className="prose">
-              <p className="lead reveal-up">Le DS mobile est passé d'un système solide mais fragmenté à une architecture alignée avec le web et taillée pour grandir.</p>
+              <p className="lead reveal-up">Avant : un DS qui tenait, mais qui ne pouvait pas grandir. Après : une architecture alignée web-app, une pipeline automatisée, des designers autonomes sur les tokens.</p>
             </div>
 
             <div className="results-grid">

@@ -143,7 +143,7 @@ export default function HomePage() {
             </div>
 
             <div className="hero-description">
-              <p>Je structure des design systems qui tiennent quand on scale. Architecture de tokens, gouvernance, pipeline du Figma au code natif — et surtout, accompagnement des équipes qui les utilisent au quotidien.</p>
+              <p>Je structure des design systems qui tiennent quand on scale. Architecture de tokens, gouvernance, pipeline du Figma au code natif — et surtout, j'embarque les équipes pour que le système vive sans moi.</p>
               <a href="#contact" className="cta-glass primary">
                 <span>Me contacter</span>
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M7 17L17 7M7 7h10v10"/></svg>
@@ -174,7 +174,7 @@ export default function HomePage() {
               <div className="skill">
                 <div className="skill-num">/01</div>
                 <h3>Architecture de tokens</h3>
-                <p>Des systèmes de tokens à quatre niveaux (Core, Brand, Semantic, Component). Conçus pour gérer plusieurs marques, plusieurs plateformes, plusieurs thèmes. La logique d'abord. L'outillage ensuite.</p>
+                <p>Des systèmes de tokens à quatre niveaux (Core, Brand, Semantic, Component). Résultat : ajouter une marque ou un thème sans tout casser. Chez Accor, ça a rendu le rebranding mobile possible en semaines, pas en mois.</p>
                 <div className="skill-tags">
                   <span className="skill-tag">Tokens 4 niveaux</span>
                   <span className="skill-tag">Material-style</span>
@@ -186,7 +186,7 @@ export default function HomePage() {
               <div className="skill">
                 <div className="skill-num">/02</div>
                 <h3>Pipeline design vers code</h3>
-                <p>Le chemin entre Figma et le code natif, automatisé et fiable. Gouvernance Sheet, Tokens Studio, push Git, sync bidirectionnelle. Un seul objectif : une source de vérité, plusieurs destinations.</p>
+                <p>Le chemin entre Figma et le code natif, automatisé et fiable. Gouvernance Sheet, Tokens Studio, push Git, sync bidirectionnelle. Résultat : zéro copier-coller, zéro dérive entre design et implémentation.</p>
                 <div className="skill-tags">
                   <span className="skill-tag">Tokens Studio</span>
                   <span className="skill-tag">Style Dictionary</span>
@@ -198,7 +198,7 @@ export default function HomePage() {
               <div className="skill">
                 <div className="skill-num">/03</div>
                 <h3>Gouvernance &amp; adoption</h3>
-                <p>Audits, formations, accompagnement des designers au quotidien, contribution model. Un design system se vend autant qu'il se construit. J'embarque les équipes par la preuve de valeur, jamais par le mandat.</p>
+                <p>Audits, formations, contribution model, accompagnement terrain. Un design system que personne n'utilise ne sert à rien. Je fais en sorte que les équipes l'adoptent parce qu'il leur fait gagner du temps — pas parce qu'on leur a dit de l'utiliser.</p>
                 <div className="skill-tags">
                   <span className="skill-tag">Audits</span>
                   <span className="skill-tag">Formations</span>
@@ -210,7 +210,7 @@ export default function HomePage() {
               <div className="skill">
                 <div className="skill-num">/04</div>
                 <h3>Plateformes natives &amp; web</h3>
-                <p>Je coordonne design et dev sur iOS (SwiftUI), Android (Jetpack Compose) et Web (Webflow / Lumos). Composants adaptatifs, theming multi-dimensions, parité visuelle entre les plateformes.</p>
+                <p>Je coordonne design et dev sur iOS (SwiftUI), Android (Jetpack Compose) et Web (Webflow / Lumos). Un composant, plusieurs OS, zéro fork. Les designers travaillent une fois, le résultat est cohérent partout.</p>
                 <div className="skill-tags">
                   <span className="skill-tag">Jetpack Compose</span>
                   <span className="skill-tag">SwiftUI</span>
@@ -222,7 +222,7 @@ export default function HomePage() {
               <div className="skill">
                 <div className="skill-num">/05</div>
                 <h3>Tooling sur mesure</h3>
-                <p>Des outils internes pour fluidifier l'usage du DS : widgets pédagogiques, palettes HCT, explorateurs de tokens. Le but est concret — faire gagner du temps aux designers et supprimer les questions répétitives.</p>
+                <p>Des outils internes pour que le DS soit utilisable sans mode d'emploi : widgets pédagogiques, palettes HCT, explorateurs de tokens. Moins de questions en Slack, plus d'autonomie au quotidien.</p>
                 <div className="skill-tags">
                   <span className="skill-tag">Figma plugins</span>
                   <span className="skill-tag">HTML widgets</span>
@@ -234,7 +234,7 @@ export default function HomePage() {
               <div className="skill">
                 <div className="skill-num">/06</div>
                 <h3>Automatisation</h3>
-                <p>Pipelines de documentation, exports JSON machine-readable, agents de génération, webhooks. L'automatisation est une brique du DS parmi d'autres. Jamais une fin en soi.</p>
+                <p>Pipelines de documentation, exports JSON machine-readable, agents de génération, webhooks. J'automatise ce qui est déjà robuste à la main. Jamais l'inverse.</p>
                 <div className="skill-tags">
                   <span className="skill-tag">n8n</span>
                   <span className="skill-tag">Claude Code</span>
@@ -336,13 +336,13 @@ export default function HomePage() {
           <div className="wrap">
             <div className="section-meta">
               <div className="section-num reveal-up">/05 — À propos</div>
-              <h2 className="section-title reveal-up">Designer, manager, trait d'union entre <em>les mondes</em>.</h2>
+              <h2 className="section-title reveal-up">Le mec qui fait que votre DS <em>fonctionne vraiment</em>.</h2>
             </div>
 
             <div className="about-content reveal-up">
-              <p>Je suis <strong>Design System Manager</strong>, spécialisé dans les DS multi-plateformes et multi-marques. Je viens de terminer une mission chez Accor sur le périmètre app iOS et Android : refonte de l'architecture tokens, industrialisation du pipeline design vers code.</p>
+              <p>Je suis <strong>Design System Manager</strong> freelance. Ma spécialité : les DS multi-plateformes, multi-marques, avec des vraies équipes derrière. Dernière mission : Accor, périmètre app iOS et Android. Refonte de l'architecture tokens, pipeline design-to-code, et surtout — adoption par quatre product designers qui n'étaient pas demandeurs au départ.</p>
               <p>Mon job, c'est de relier design, dev et produit. Concevoir l'architecture, oui. Mais surtout la faire <strong>vivre</strong> : documenter, former, convaincre. Un bon DS Manager passe plus de temps à expliquer et négocier qu'à dessiner. C'est exactement ce que je fais.</p>
-              <p>Ce qui m'intéresse le plus dans ce métier, c'est le <strong>travail avec les équipes</strong>. Comprendre les frictions, débloquer les designers, défendre un choix, en lâcher un autre quand il ne prend pas. Le DS est un produit interne. Pas un livrable qu'on dépose et qu'on oublie.</p>
+              <p>Ce qui me différencie, c'est que je ne lâche pas après la livraison. Je reste dans les maquettes, dans les daily, dans les reviews. Je comprends les frictions, je débloque les designers, je défends un choix et j'en lâche un autre quand il ne prend pas. Le DS est un produit interne — pas un PDF qu'on dépose et qu'on oublie.</p>
               <p>Disponible à partir de <strong>fin avril 2026</strong> en freelance. Missions moyen ou long terme.</p>
             </div>
           </div>
