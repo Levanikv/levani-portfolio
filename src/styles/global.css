@@ -56,6 +56,20 @@ body {
 
 ::selection { background: var(--emerald-glow); color: var(--cream-bright); }
 
+/* Mesure de ligne optimale (~65 caractères) */
+.skill p,
+.principle p,
+.learning p,
+.result-card p,
+.diag-item p,
+.decision-body p,
+.featured-project p,
+.contact-sub,
+.hero-description p,
+.img-caption,
+.ba-card li,
+.rule-box p { max-width: 600px; }
+
 /* ----------- BACKGROUND ----------- */
 .bg-texture {
   position: fixed;
