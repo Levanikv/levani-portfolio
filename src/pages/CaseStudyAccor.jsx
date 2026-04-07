@@ -266,39 +266,39 @@ export default function CaseStudyAccor() {
               <div className="decision">
                 <div className="decision-num">/01</div>
                 <div className="decision-body">
-                  <h3>Rationaliser l'architecture en quatre niveaux</h3>
-                  <div className="sub">Le problème</div>
-                  <p>Le naming sémantique n'était pas cohérent. Les familles de couleurs étaient incomplètes. Ajouter une marque demandait du bricolage à plusieurs niveaux.</p>
-                  <div className="sub">La décision</div>
-                  <p>Une architecture stricte en Core, Brand, Semantic et Component. Découpler ce qui change rarement de ce qui change souvent. <strong>Chaque niveau ne connaît que celui du dessus.</strong> On a gardé la logique Material existante et on l'a nettoyée.</p>
-                  <div className="sub">Pourquoi</div>
-                  <p>Pas pour révolutionner. Pour rendre le système <strong>prévisible</strong> — et donc maintenable, transmissible, capable d'accueillir de nouvelles marques sans casser l'existant.</p>
+                  <h3>Architecture en quatre niveaux</h3>
+                  <div className="sub">Problème</div>
+                  <p>Naming incohérent, familles de couleurs incomplètes. Ajouter une marque = bricolage.</p>
+                  <div className="sub">Décision</div>
+                  <p>Core, Brand, Semantic, Component. <strong>Chaque niveau ne connaît que celui du dessus.</strong> Logique Material conservée, nettoyée.</p>
+                  <div className="sub">Résultat</div>
+                  <p>Système <strong>prévisible</strong> — maintenable, transmissible, prêt pour de nouvelles marques.</p>
                 </div>
               </div>
 
               <div className="decision">
                 <div className="decision-num">/02</div>
                 <div className="decision-body">
-                  <h3>Centraliser la gouvernance sur Google Sheet</h3>
-                  <div className="sub">Le problème</div>
-                  <p>Pousser directement dans Tokens Studio coupait designers et devs de la décision. Personne ne voyait l'historique, personne ne validait avant le push.</p>
-                  <div className="sub">La décision</div>
-                  <p>Faire de Google Sheet la base de données du DS. Lisible par tous, mappée web vers iOS vers Android, validable en équipe avant push vers Tokens Studio puis vers Git.</p>
-                  <div className="sub">Pourquoi</div>
-                  <p><strong>La gouvernance avant l'automatisation.</strong> Automatiser un système mal structuré ne fait qu'accélérer le chaos. Le low-tech a gagné parce qu'il était lisible par tout le monde, designers comme développeurs.</p>
+                  <h3>Gouvernance sur Google Sheet</h3>
+                  <div className="sub">Problème</div>
+                  <p>Pousser directement dans Tokens Studio coupait tout le monde de la décision.</p>
+                  <div className="sub">Décision</div>
+                  <p>Google Sheet comme base du DS. Lisible par tous, mappée web → iOS → Android, validable en équipe avant push Git.</p>
+                  <div className="sub">Résultat</div>
+                  <p><strong>Le low-tech a gagné</strong> parce qu'il était lisible par tout le monde.</p>
                 </div>
               </div>
 
               <div className="decision">
                 <div className="decision-num">/03</div>
                 <div className="decision-body">
-                  <h3>Industrialiser la pipeline avec Tokens Studio &amp; Git</h3>
-                  <div className="sub">Le problème</div>
-                  <p>Le copier-coller de valeurs entre Figma et le code était la principale source de dérive entre design et implémentation.</p>
-                  <div className="sub">La décision</div>
-                  <p>Tokens Studio configuré avec push Git pour l'export, et pull côté Figma pour la sync. Le repo Git est partagé directement avec les développeurs iOS et Android — ils consomment la source de vérité sans intermédiaire.</p>
-                  <div className="sub">Pourquoi</div>
-                  <p>Style Dictionary a été testé en POC pour aller plus loin sur l'export natif. On l'a volontairement gardé en POC : <strong>on automatise ce qui est déjà robuste à la main.</strong></p>
+                  <h3>Pipeline Tokens Studio &amp; Git</h3>
+                  <div className="sub">Problème</div>
+                  <p>Copier-coller entre Figma et le code = dérive permanente.</p>
+                  <div className="sub">Décision</div>
+                  <p>Tokens Studio → push Git → pull Figma. Les devs iOS et Android consomment la source de vérité directement.</p>
+                  <div className="sub">Résultat</div>
+                  <p><strong>Zéro intermédiaire.</strong> Style Dictionary en POC : on automatise ce qui est robuste à la main.</p>
                 </div>
               </div>
             </div>

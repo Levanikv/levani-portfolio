@@ -1403,7 +1403,7 @@ footer {
   font-family: 'Inter', sans-serif;
   font-size: clamp(28px, 3vw, 44px);
   font-weight: 700;
-  margin: 120px 0 var(--space-block);
+  margin: 120px 0 80px;
   line-height: 1.1;
   text-transform: uppercase;
   color: var(--cream-bright);
