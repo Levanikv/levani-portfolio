@@ -240,6 +240,9 @@ nav.nav-breadcrumb ul {
   justify-content: flex-end;
   padding: 200px 0 100px;
   z-index: 1;
+  backdrop-filter: blur(40px) saturate(1.1) brightness(0.85);
+  -webkit-backdrop-filter: blur(40px) saturate(1.1) brightness(0.85);
+  background: rgba(2, 22, 14, 0.2);
 }
 .hero.hero-hug {
   min-height: auto;
@@ -483,7 +486,13 @@ nav.nav-breadcrumb ul {
 }
 
 /* ----------- SECTIONS ----------- */
-.content { position: relative; z-index: 1; }
+.content {
+  position: relative;
+  z-index: 1;
+  backdrop-filter: blur(40px) saturate(1.1) brightness(0.85);
+  -webkit-backdrop-filter: blur(40px) saturate(1.1) brightness(0.85);
+  background: rgba(2, 22, 14, 0.2);
+}
 
 section {
   padding: var(--space-section) 0;
