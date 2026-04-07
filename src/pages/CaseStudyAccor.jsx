@@ -141,7 +141,7 @@ export default function CaseStudyAccor() {
             </div>
 
             <div className="hero-description cs">
-              <p>Refonte de l'architecture tokens du DS mobile d'Accor. Alignement web-app, pipeline automatisée, adoption terrain par des designers qui n'avaient rien demandé.</p>
+              <p>Refonte de l'architecture tokens du DS mobile d'Accor. Alignement web-app, pipeline automatisée. Et surtout : adoption terrain par des designers qui n'avaient rien demandé.</p>
             </div>
           </div>
         </div>
@@ -157,8 +157,8 @@ export default function CaseStudyAccor() {
             </div>
 
             <div className="prose">
-              <p className="lead reveal-up">À mon arrivée, le DS mobile d'Accor existait et tenait debout. Mais il n'était pas fait pour grandir.</p>
-              <p>Le système gérait déjà le light/dark et les variations iOS/Android via les variables. Le travail n'était pas de tout casser. Il fallait poser une <strong>architecture extensible</strong>, capable d'absorber de nouvelles marques, et l'<strong>aligner avec le DS web</strong> — même DA, mais aucune source de vérité commune.</p>
+              <p className="lead reveal-up">À mon arrivée, le DS mobile d'Accor existait. Il tenait debout. Mais il n'était pas fait pour grandir.</p>
+              <p>Le système gérait déjà le light/dark et les variations iOS/Android via les variables. Le travail n'était pas de tout casser. Il fallait poser une <strong>architecture extensible</strong>, capable d'absorber de nouvelles marques, et l'<strong>aligner avec le DS web</strong>. Même direction artistique, mais aucune source de vérité commune.</p>
             </div>
 
             <div className="img-frame light">
@@ -190,7 +190,7 @@ export default function CaseStudyAccor() {
 
             <div className="prose">
               <h3>Le vrai défi, c'était <em>humain</em></h3>
-              <p>Au-delà du technique, le vrai sujet était humain. Les designers n'étaient pas à l'aise avec les tokens sémantiques. <code>surface-container</code>, <code>on-surface-variant</code> — ce vocabulaire abstrait était loin de leur quotidien.</p>
+              <p>Au-delà du technique, le vrai sujet était humain. Les designers n'étaient pas à l'aise avec les tokens sémantiques. <code>surface-container</code>, <code>on-surface-variant</code> — ce vocabulaire était loin de leur quotidien. Et ça se voyait.</p>
             </div>
 
             <div className="pull">
@@ -213,9 +213,9 @@ export default function CaseStudyAccor() {
             </div>
 
             <div className="prose">
-              <p className="lead reveal-up">On aurait pu lancer la refonte tokens dès le départ. On a attendu.</p>
-              <p>Imposer un changement d'architecture sans raison business visible, c'était l'échec assuré. Quand le rebranding a été annoncé, on a saisi la fenêtre. <strong>« Puisqu'on touche à toutes les couleurs, autant reconstruire les fondations. »</strong></p>
-              <p>Le rebranding est devenu le levier de la refonte. Il a permis de légitimer le chantier, d'aligner web et app sur un même calendrier, et de justifier l'investissement en outillage.</p>
+              <p className="lead reveal-up">On aurait pu lancer la refonte tokens dès le premier jour. On a attendu.</p>
+              <p>Imposer un changement d'architecture sans raison business visible, c'était l'échec assuré. Quand le rebranding a été annoncé, la fenêtre s'est ouverte. <strong>Puisqu'on touche à toutes les couleurs, autant reconstruire les fondations.</strong></p>
+              <p>Le rebranding est devenu le levier. Il a permis de légitimer le chantier, d'aligner web et app sur un même calendrier, et de justifier l'investissement en outillage.</p>
             </div>
 
             <div className="ba">
@@ -245,7 +245,7 @@ export default function CaseStudyAccor() {
             </div>
 
             <div className="prose">
-              <p>On n'a pas réinventé le langage. Le système suivait déjà une logique Material. <strong>On a rationalisé le naming, complété les familles de couleurs, et tout documenté.</strong> Un vrai changement d'architecture, mais pas de rupture sémantique. C'est cette continuité qui a facilité l'adoption.</p>
+              <p>On n'a pas réinventé le langage. Le système suivait déjà une logique Material. <strong>On a rationalisé le naming, complété les familles de couleurs, et tout documenté.</strong> Un vrai changement d'architecture, mais pas de rupture. C'est cette continuité qui a rendu l'adoption possible.</p>
             </div>
           </div>
         </section>
@@ -259,7 +259,7 @@ export default function CaseStudyAccor() {
             </div>
 
             <div className="prose">
-              <p className="lead reveal-up">Trois décisions structurantes. Chacune défendue avant d'être exécutée.</p>
+              <p className="lead reveal-up">Trois décisions structurantes. Chacune discutée et défendue avant d'être exécutée.</p>
             </div>
 
             <div className="decisions">
@@ -268,11 +268,11 @@ export default function CaseStudyAccor() {
                 <div className="decision-body">
                   <h3>Architecture en quatre niveaux</h3>
                   <div className="sub">Problème</div>
-                  <p>Naming incohérent, familles incomplètes. Ajouter une marque relevait du bricolage.</p>
+                  <p>Naming incohérent, familles incomplètes. Ajouter une marque, c'était du bricolage.</p>
                   <div className="sub">Décision</div>
-                  <p>Core, Brand, Semantic, Component. <strong>Chaque niveau ne référence que celui du dessus.</strong> Logique Material conservée, nettoyée.</p>
+                  <p>Core, Brand, Semantic, Component. <strong>Chaque niveau ne référence que celui du dessus.</strong> La logique Material est conservée, mais nettoyée.</p>
                   <div className="sub">Résultat</div>
-                  <p>Un système <strong>prévisible</strong>. Maintenable, transmissible, prêt pour de nouvelles marques.</p>
+                  <p>Un système <strong>prévisible</strong>. Maintenable, transmissible. Prêt pour de nouvelles marques sans tout retoucher.</p>
                 </div>
               </div>
 
@@ -281,7 +281,7 @@ export default function CaseStudyAccor() {
                 <div className="decision-body">
                   <h3>Gouvernance sur Google Sheet</h3>
                   <div className="sub">Problème</div>
-                  <p>Pousser directement dans Tokens Studio excluait le reste de l'équipe des décisions.</p>
+                  <p>Pousser directement dans Tokens Studio, ça excluait le reste de l'équipe des décisions.</p>
                   <div className="sub">Décision</div>
                   <p>Google Sheet comme source. Lisible par tous, mappée web → iOS → Android, validable en équipe avant push Git.</p>
                   <div className="sub">Résultat</div>
@@ -294,11 +294,11 @@ export default function CaseStudyAccor() {
                 <div className="decision-body">
                   <h3>Pipeline Tokens Studio &amp; Git</h3>
                   <div className="sub">Problème</div>
-                  <p>Copier-coller entre Figma et le code. Dérive permanente.</p>
+                  <p>Copier-coller entre Figma et le code. Dérive permanente, personne ne savait quelle version était la bonne.</p>
                   <div className="sub">Décision</div>
                   <p>Tokens Studio → push Git → pull Figma. Les devs iOS et Android consomment la source de vérité directement.</p>
                   <div className="sub">Résultat</div>
-                  <p><strong>Zéro intermédiaire.</strong> Style Dictionary en POC. On automatise ce qui marche déjà à la main.</p>
+                  <p><strong>Zéro intermédiaire.</strong> Style Dictionary en POC pour la suite. On automatise ce qui marche déjà à la main.</p>
                 </div>
               </div>
             </div>
@@ -359,7 +359,7 @@ export default function CaseStudyAccor() {
 
             <div className="prose">
               <h3>La gouvernance, la pipeline, la <em>sync</em></h3>
-              <p>Trois outils, une seule source de vérité. L'enchaînement est conçu pour qu'aucun copier-coller ne soit nécessaire.</p>
+              <p>Trois outils, une seule source de vérité. Le tout conçu pour qu'aucun copier-coller ne soit nécessaire.</p>
             </div>
 
             <div className="img-frame">
@@ -433,7 +433,7 @@ export default function CaseStudyAccor() {
 
             <div className="prose">
               <h3>Un theming à <em>cinq dimensions</em></h3>
-              <p>Tokens en place, on a conçu des composants qui s'adaptent à cinq variables : OS, device, apparence, accessibilité, marque. <strong>Un seul composant. Cinq dimensions. Zéro duplication.</strong></p>
+              <p>Les tokens en place, on a conçu des composants qui s'adaptent à cinq variables : OS, device, apparence, accessibilité, marque. <strong>Un seul composant. Cinq dimensions. Zéro duplication.</strong></p>
             </div>
 
             <div className="img-frame light">
@@ -455,8 +455,8 @@ export default function CaseStudyAccor() {
             </div>
 
             <div className="prose">
-              <p className="lead reveal-up">Construire le système, c'était 30% du travail. Convaincre les gens de l'utiliser, les 70% restants.</p>
-              <p>Plutôt qu'imposer les tokens par décret, trois leviers : <strong>former, donner à manipuler, accompagner au quotidien.</strong> Aucun ne suffit seul. Les trois ensemble, oui.</p>
+              <p className="lead reveal-up">Construire le système, c'était 30 % du travail. Convaincre les gens de l'utiliser, c'était tout le reste.</p>
+              <p>Plutôt qu'imposer les tokens par décret, trois leviers : <strong>former, donner à manipuler, accompagner au quotidien</strong>. Aucun ne suffit seul. Les trois ensemble, oui.</p>
             </div>
 
             <div className="decisions">
@@ -464,7 +464,7 @@ export default function CaseStudyAccor() {
                 <div className="decision-num">/01</div>
                 <div className="decision-body">
                   <h3>Une formation pour penser en tokens</h3>
-                  <p>Des sessions pour expliquer la logique des familles de couleurs, la différence entre <em>surface</em> et <em>on-surface</em>, et comment appliquer les tokens dans Figma. L'objectif : faire comprendre le <strong>pourquoi</strong>. Quand le pourquoi est clair, le reste suit.</p>
+                  <p>Des sessions pour expliquer la logique des familles de couleurs, la différence entre <em>surface</em> et <em>on-surface</em>, et comment appliquer les tokens dans Figma. L'objectif : que les designers comprennent le <strong>pourquoi</strong>. Quand le pourquoi est clair, le comment suit.</p>
                 </div>
               </div>
 
@@ -472,7 +472,7 @@ export default function CaseStudyAccor() {
                 <div className="decision-num">/02</div>
                 <div className="decision-body">
                   <h3>Un widget pour jouer avec les tokens</h3>
-                  <p>Plutôt que de la doc statique, j'ai construit un widget interactif. Chaque designer explore les familles, change une variable, voit l'impact en temps réel. <strong>L'objectif : répondre seul à « quel token utiliser ici ? »</strong> sans avoir à demander.</p>
+                  <p>Plutôt que de la doc statique, j'ai construit un widget interactif. On explore les familles, on change une variable, on voit l'impact en temps réel. <strong>L'objectif : répondre seul à « quel token utiliser ici ? »</strong> sans avoir à demander sur Slack.</p>
                   <a href="https://preset-ebony-08524974.figma.site/" target="_blank" rel="noopener noreferrer" className="widget-link">
                     Voir le widget en ligne
                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M7 17L17 7M7 7h10v10"/></svg>
@@ -484,19 +484,19 @@ export default function CaseStudyAccor() {
                 <div className="decision-num">/03</div>
                 <div className="decision-body">
                   <h3>Un accompagnement individuel et continu</h3>
-                  <p>Reviews dans les maquettes, daily DSM, synchros design hebdo, biweekly QA. Pas pour contrôler. Pour débloquer et capter les frictions avant qu'elles ne deviennent des blocages. C'est là qu'on apprend ce que la doc ne dira jamais.</p>
+                  <p>Reviews dans les maquettes, daily DSM, synchros design hebdo, biweekly QA. Pas pour contrôler — pour débloquer. Capter les frictions avant qu'elles ne deviennent des blocages. C'est là qu'on apprend ce que la doc ne dira jamais.</p>
                 </div>
               </div>
             </div>
 
             <div className="pull">
-              <blockquote>L'adoption a vraiment décollé le jour où les designers ont compris qu'ils gagnaient du temps sur leurs livrables. Pas avant.</blockquote>
+              <blockquote>L'adoption a décollé le jour où les designers ont vu qu'ils gagnaient du temps sur leurs livrables. Pas avant.</blockquote>
               <cite>Observation terrain</cite>
             </div>
 
             <div className="prose">
               <h3>Documenter à <em>grande échelle</em></h3>
-              <p>Documenter des dizaines de composants à la main, c'est des mois de travail qui se périme en cours de route. Notre approche : exporter le JSON de chaque composant via Anova (anatomy, props, slots, types, variants). Ce JSON devient la <strong>spec lisible par la machine</strong>, qui alimente la doc sur Supernova et les agents qui génèrent les fiches.</p>
+              <p>Documenter des dizaines de composants à la main, c'est des mois de travail qui se périme en cours de route. L'approche : exporter le JSON de chaque composant via Anova (anatomy, props, slots, types, variants). Ce JSON devient la <strong>spec lisible par la machine</strong>, qui alimente la doc sur Supernova et les agents qui génèrent les fiches.</p>
               <p>On ne remplace pas la doc humaine. On lui donne une base structurée et à jour. La règle : <strong>la machine prépare, on valide.</strong> Jamais l'inverse.</p>
             </div>
 
@@ -509,7 +509,7 @@ export default function CaseStudyAccor() {
             </div>
 
             <div className="prose">
-              <p>En parallèle, une pipeline de changelog automatisé est en cours pour notifier l'équipe à chaque évolution du DS. Une partie est en place. Le reste sera continué après mon départ.</p>
+              <p>En parallèle, une pipeline de changelog automatisé pour notifier l'équipe à chaque évolution du DS. Une partie est en place. Le reste sera continué après mon départ.</p>
             </div>
           </div>
         </section>
@@ -523,7 +523,7 @@ export default function CaseStudyAccor() {
             </div>
 
             <div className="prose">
-              <p className="lead reveal-up">Avant : un DS qui tenait, mais ne pouvait pas grandir. Après : architecture alignée web-app, pipeline automatisée, designers autonomes sur les tokens.</p>
+              <p className="lead reveal-up">Avant : un DS qui tenait, mais ne pouvait pas grandir. Après : une base commune, des choix plus rapides, moins d'allers-retours entre équipes.</p>
             </div>
 
             <div className="results-grid">
@@ -565,17 +565,17 @@ export default function CaseStudyAccor() {
               <div className="reveal-up">
                 <div className="learning-num">/01</div>
                 <h4>Un DS se vend autant qu'il se construit</h4>
-                <p>L'adoption passe par la preuve, pas par le mandat. Le meilleur système reste lettre morte si personne n'en veut.</p>
+                <p>L'adoption passe par la preuve, pas par le mandat. Le meilleur système du monde reste lettre morte si personne n'en veut.</p>
               </div>
               <div className="reveal-up">
                 <div className="learning-num">/02</div>
                 <h4>Gouvernance avant automatisation</h4>
-                <p>Automatiser un système mal structuré accélère le chaos. On stabilise d'abord, on documente, puis on automatise.</p>
+                <p>Automatiser un système mal structuré, ça accélère le chaos. On stabilise d'abord, on documente, puis on automatise.</p>
               </div>
               <div className="reveal-up">
                 <div className="learning-num">/03</div>
                 <h4>Un DS Manager est un PM déguisé</h4>
-                <p>J'ai passé plus de temps à convaincre, former et négocier qu'à designer. C'est normal. C'est le job.</p>
+                <p>J'ai passé plus de temps à convaincre, former et négocier qu'à dessiner des composants. C'est normal. C'est le vrai job.</p>
               </div>
             </div>
           </div>

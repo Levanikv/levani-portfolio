@@ -143,7 +143,7 @@ export default function HomePage() {
             </div>
 
             <div className="hero-description">
-              <p>Je construis des design systems qui tiennent dans la durée. Tokens, gouvernance, pipeline Figma-to-code — et surtout, je fais en sorte que les équipes s'en servent vraiment.</p>
+              <p>Je conçois des design systems pour des apps mobiles et des produits digitaux. Mon objectif : rendre les produits plus cohérents et les équipes plus efficaces.</p>
               <a href="#contact" className="cta-glass primary">
                 <span>Me contacter</span>
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M7 17L17 7M7 7h10v10"/></svg>
@@ -174,7 +174,7 @@ export default function HomePage() {
               <div className="skill">
                 <div className="skill-num">/01</div>
                 <h3>Architecture de tokens</h3>
-                <p>Quatre niveaux de tokens : Core, Brand, Semantic, Component. On peut ajouter une marque ou un thème sans tout casser. Chez Accor, ça a permis de livrer le rebranding mobile en semaines au lieu de mois.</p>
+                <p>Quatre niveaux : Core, Brand, Semantic, Component. On ajoute une marque ou un thème sans tout casser. Chez Accor, ça a permis de livrer le rebranding mobile en semaines au lieu de mois.</p>
                 <div className="skill-tags">
                   <span className="skill-tag">Tokens 4 niveaux</span>
                   <span className="skill-tag">Material-style</span>
@@ -186,7 +186,7 @@ export default function HomePage() {
               <div className="skill">
                 <div className="skill-num">/02</div>
                 <h3>Pipeline design vers code</h3>
-                <p>Le chemin entre Figma et le code natif, automatisé et fiable. Google Sheet, Tokens Studio, push Git, sync bidirectionnelle. Zéro copier-coller, zéro dérive entre design et implémentation.</p>
+                <p>Le chemin entre Figma et le code natif, automatisé et fiable. Google Sheet comme source, Tokens Studio comme pont, push Git pour versionner. Zéro copier-coller, zéro dérive.</p>
                 <div className="skill-tags">
                   <span className="skill-tag">Tokens Studio</span>
                   <span className="skill-tag">Style Dictionary</span>
@@ -198,7 +198,7 @@ export default function HomePage() {
               <div className="skill">
                 <div className="skill-num">/03</div>
                 <h3>Gouvernance &amp; adoption</h3>
-                <p>Audits, formations, contribution model, accompagnement terrain. Un design system que personne n'utilise ne sert à rien. Je fais en sorte que les équipes l'adoptent parce qu'il leur fait gagner du temps, pas parce qu'on leur impose.</p>
+                <p>Un design system que personne n'utilise ne sert à rien. Audits, formations, accompagnement terrain. Je fais en sorte que les équipes l'adoptent parce qu'il leur fait gagner du temps — pas parce qu'on leur impose.</p>
                 <div className="skill-tags">
                   <span className="skill-tag">Audits</span>
                   <span className="skill-tag">Formations</span>
@@ -210,7 +210,7 @@ export default function HomePage() {
               <div className="skill">
                 <div className="skill-num">/04</div>
                 <h3>Plateformes natives &amp; web</h3>
-                <p>Je coordonne design et dev sur iOS (SwiftUI), Android (Jetpack Compose) et Web (Webflow / Lumos). Un composant, plusieurs OS, zéro fork. Le travail est fait une fois, le résultat est cohérent partout.</p>
+                <p>iOS en SwiftUI, Android en Jetpack Compose, Web en Webflow et Lumos. Je coordonne design et dev pour qu'un composant marche partout. Le travail est fait une fois, le résultat est cohérent sur chaque OS.</p>
                 <div className="skill-tags">
                   <span className="skill-tag">Jetpack Compose</span>
                   <span className="skill-tag">SwiftUI</span>
@@ -222,7 +222,7 @@ export default function HomePage() {
               <div className="skill">
                 <div className="skill-num">/05</div>
                 <h3>Tooling sur mesure</h3>
-                <p>Des outils internes pour rendre le DS accessible sans mode d'emploi. Widgets pédagogiques, palettes HCT, explorateurs de tokens. Moins de questions Slack, plus d'autonomie.</p>
+                <p>Des outils internes pour que le DS soit utilisable sans mode d'emploi. Widgets pédagogiques, palettes HCT, explorateurs de tokens. Moins de questions Slack, plus d'autonomie.</p>
                 <div className="skill-tags">
                   <span className="skill-tag">Figma plugins</span>
                   <span className="skill-tag">HTML widgets</span>
@@ -234,7 +234,7 @@ export default function HomePage() {
               <div className="skill">
                 <div className="skill-num">/06</div>
                 <h3>Automatisation</h3>
-                <p>Pipelines de documentation, exports JSON machine-readable, agents de génération, webhooks. J'automatise ce qui marche déjà à la main. Jamais l'inverse.</p>
+                <p>Pipelines de documentation, exports JSON machine-readable, agents de génération, webhooks. J'automatise ce qui a fait ses preuves à la main. Jamais l'inverse.</p>
                 <div className="skill-tags">
                   <span className="skill-tag">n8n</span>
                   <span className="skill-tag">Claude Code</span>
@@ -287,7 +287,7 @@ export default function HomePage() {
                 <div>
                   <div className="featured-eyebrow">Étude de cas · Accor</div>
                   <h3>Un DS, deux OS, <em>une seule source.</em></h3>
-                  <p>Refonte de l'architecture tokens du DS mobile d'Accor. Quatre niveaux, alignement web-app, pipeline automatisée jusqu'au code natif. Les équipes embarquées, pas contraintes.</p>
+                  <p>Refonte de l'architecture tokens du DS mobile d'Accor. Quatre niveaux, alignement web-app, pipeline automatisée. Le vrai sujet : embarquer les équipes sans les contraindre.</p>
                   <span className="cta-glass primary" style={{ marginTop: '8px' }}>
                     <span>Lire l'étude de cas</span>
                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
@@ -315,17 +315,17 @@ export default function HomePage() {
               <div className="reveal-up">
                 <div className="principle-num">/01</div>
                 <h4>Les designers d'abord</h4>
-                <p>Un design system n'existe que si des gens l'utilisent. Je passe autant de temps à former et écouter les designers qu'à concevoir l'architecture. C'est ce qui fait la différence entre un système vivant et un système oublié.</p>
+                <p>Un design system n'existe que si des gens l'utilisent. Je passe autant de temps à former et écouter les designers qu'à concevoir l'architecture. C'est la différence entre un système vivant et un système oublié.</p>
               </div>
               <div className="reveal-up">
                 <div className="principle-num">/02</div>
                 <h4>Gouvernance avant automatisation</h4>
-                <p>Automatiser un système mal structuré, c'est accélérer le chaos. On stabilise à la main, on documente, on vérifie que ça tient. L'automatisation vient après, sur ce qui a fait ses preuves.</p>
+                <p>Automatiser un système mal structuré, c'est accélérer le chaos. On stabilise d'abord, on documente, on vérifie que ça tient. L'automatisation vient après — sur ce qui a fait ses preuves.</p>
               </div>
               <div className="reveal-up">
                 <div className="principle-num">/03</div>
                 <h4>Un DS se vend autant qu'il se construit</h4>
-                <p>Le meilleur système du monde reste inutile si personne n'en veut. L'adoption passe par la preuve, pas par la directive. Une décision discutée vaut mieux qu'une décision parfaite.</p>
+                <p>Le meilleur système du monde reste inutile si personne n'en veut. L'adoption passe par la preuve, pas par la directive. J'ai appris ça chez Accor : une décision discutée vaut mieux qu'une décision parfaite.</p>
               </div>
             </div>
           </div>
@@ -336,13 +336,13 @@ export default function HomePage() {
           <div className="wrap">
             <div className="section-meta">
               <div className="section-num reveal-up">/05 — À propos</div>
-              <h2 className="section-title reveal-up">Celui qui fait que votre DS <em>fonctionne vraiment</em>.</h2>
+              <h2 className="section-title reveal-up">Un peu plus <em>sur moi</em>.</h2>
             </div>
 
             <div className="about-content reveal-up">
-              <p>Je suis <strong>Design System Manager</strong> freelance. Ma spécialité : les DS multi-plateformes, multi-marques, avec de vraies équipes derrière. Dernière mission : Accor, périmètre app iOS et Android. Refonte des tokens, pipeline design-to-code, et adoption par quatre product designers qui n'étaient pas demandeurs au départ.</p>
-              <p>Mon job, c'est de relier design, dev et produit. Concevoir l'architecture, oui. Mais surtout la faire <strong>vivre</strong> : documenter, former, convaincre. Je passe plus de temps à expliquer et négocier qu'à dessiner.</p>
-              <p>Je ne lâche pas après la livraison. Je reste dans les maquettes, les daily, les reviews. Je capte les frictions, je débloque les designers, je défends un choix et j'en lâche un autre quand il ne prend pas. Le DS est un produit interne, pas un PDF qu'on dépose et qu'on oublie.</p>
+              <p>Je suis product designer, spécialisé en design systems. Je travaille avec des équipes produit pour structurer leurs interfaces et améliorer leur manière de construire. Dernière mission : Accor, périmètre app iOS et Android. Refonte des tokens, pipeline design-to-code, et adoption par quatre product designers qui n'étaient pas demandeurs au départ.</p>
+              <p>Mon job, c'est de relier design, dev et produit. Concevoir l'architecture, oui. Mais surtout la faire <strong>vivre</strong> : documenter, former, convaincre. Je passe plus de temps à expliquer qu'à dessiner. Et c'est normal.</p>
+              <p>Je ne lâche pas après la livraison. Je reste dans les maquettes, les daily, les reviews. Je capte les frictions, je débloque les designers, je défends un choix et j'en lâche un autre quand il ne prend pas. J'aime les choses simples, bien faites, et qui tiennent dans le temps.</p>
               <p>Disponible à partir de <strong>fin avril 2026</strong> en freelance. Missions moyen ou long terme.</p>
             </div>
           </div>
