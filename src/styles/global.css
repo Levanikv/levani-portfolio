@@ -841,7 +841,7 @@ section:last-of-type { border-bottom: none; }
   font-family: 'Inter', sans-serif;
   font-size: 24px;
   font-weight: 600;
-  margin-bottom: var(--space-tight);
+  margin-bottom: 20px;
   line-height: 1.15;
   text-transform: uppercase;
   letter-spacing: -0.015em;
@@ -1054,7 +1054,7 @@ footer {
   font-size: 18px;
   font-weight: 600;
   color: var(--cream-bright);
-  margin-bottom: var(--space-tight);
+  margin-bottom: 16px;
   text-transform: uppercase;
   letter-spacing: -0.01em;
 }
@@ -1384,7 +1384,7 @@ footer {
   font-family: 'Inter', sans-serif;
   font-size: 20px;
   font-weight: 600;
-  margin-bottom: var(--space-tight);
+  margin-bottom: 16px;
   line-height: 1.2;
   text-transform: uppercase;
   color: var(--cream-bright);
@@ -1432,7 +1432,7 @@ footer {
   font-family: 'Inter', sans-serif;
   font-size: 22px;
   font-weight: 600;
-  margin-bottom: var(--space-tight);
+  margin-bottom: 20px;
   line-height: 1.2;
   text-transform: uppercase;
   color: var(--cream-bright);
