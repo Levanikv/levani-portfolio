@@ -6,7 +6,7 @@ export function ContactHome() {
       <div className="wrap">
         <div className="contact-eyebrow reveal-fade">/06 — Contact</div>
         <h2 className="reveal-up">Discutons <em>ensemble</em>.</h2>
-        <p className="contact-sub reveal-fade">Si vous structurez un design system &agrave; l&rsquo;&eacute;chelle et que ce parcours r&eacute;sonne avec vos enjeux, &eacute;crivons-nous.</p>
+        <p className="contact-sub reveal-fade">Vous structurez un design system &agrave; grande &eacute;chelle et ce parcours parle &agrave; vos enjeux ? &Eacute;crivons-nous.</p>
         <div className="contact-links reveal-fade">
           <a href="mailto:levanikv.pro@gmail.com" className="cta-glass primary">
             <span>levanikv.pro@gmail.com</span>
@@ -31,8 +31,8 @@ export function ContactCaseStudy() {
           <span className="dot" />
           Disponible fin avril 2026
         </div>
-        <h2>Construisons quelque chose <em>de propre.</em></h2>
-        <p className="contact-sub">Si vous structurez un design system &agrave; l&rsquo;&eacute;chelle et que ce parcours r&eacute;sonne avec vos enjeux, parlons-en.</p>
+        <h2>Construisons quelque chose <em>de solide.</em></h2>
+        <p className="contact-sub">Vous structurez un design system &agrave; grande &eacute;chelle et ce parcours parle &agrave; vos enjeux ? Parlons-en.</p>
         <div className="contact-links">
           <a href="mailto:levanikv.pro@gmail.com" className="cta-glass primary">
             <span>levanikv.pro@gmail.com</span>

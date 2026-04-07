@@ -143,7 +143,7 @@ export default function HomePage() {
             </div>
 
             <div className="hero-description">
-              <p>À l'intersection du design et de l'ingénierie, je construis des design systems qui tiennent à l'échelle. Architecture de tokens, gouvernance, pipeline du Figma au code natif, et accompagnement humain des équipes.</p>
+              <p>Je structure des design systems qui tiennent quand on scale. Architecture de tokens, gouvernance, pipeline du Figma au code natif — et surtout, accompagnement des équipes qui les utilisent au quotidien.</p>
               <a href="#contact" className="cta-glass primary">
                 <span>Me contacter</span>
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M7 17L17 7M7 7h10v10"/></svg>
@@ -154,7 +154,7 @@ export default function HomePage() {
           <div className="hero-bottom">
             <div className="hero-bottom-item">Pour</div>
             <div className="hero-bottom-item">Les équipes</div>
-            <div className="hero-bottom-item">Qui pensent</div>
+            <div className="hero-bottom-item">Qui construisent</div>
             <div className="hero-bottom-item">À l'échelle</div>
             <div className="hero-bottom-item">(Défiler)</div>
           </div>
@@ -167,14 +167,14 @@ export default function HomePage() {
           <div className="wrap">
             <div className="section-meta">
               <div className="section-num reveal-up">/01 — Expertise</div>
-              <h2 className="section-title reveal-up">Ce que je sais <em>faire</em>.</h2>
+              <h2 className="section-title reveal-up">Ce que je fais <em>concrètement</em>.</h2>
             </div>
 
             <div className="skills-grid">
               <div className="skill">
                 <div className="skill-num">/01</div>
                 <h3>Architecture de tokens</h3>
-                <p>Je conçois des systèmes de tokens multi-niveaux (Core, Brand, Semantic, Component), pensés pour le multi-marque, le multi-plateforme et le multi-thème. La logique avant l'outil, la lisibilité avant la sophistication.</p>
+                <p>Des systèmes de tokens à quatre niveaux (Core, Brand, Semantic, Component). Conçus pour gérer plusieurs marques, plusieurs plateformes, plusieurs thèmes. La logique d'abord. L'outillage ensuite.</p>
                 <div className="skill-tags">
                   <span className="skill-tag">Tokens 4 niveaux</span>
                   <span className="skill-tag">Material-style</span>
@@ -186,7 +186,7 @@ export default function HomePage() {
               <div className="skill">
                 <div className="skill-num">/02</div>
                 <h3>Pipeline design vers code</h3>
-                <p>J'industrialise le flux entre Figma et le code natif. Gouvernance Sheet, Tokens Studio, push Git, sync bidirectionnelle. L'objectif est toujours le même : une seule source de vérité, plusieurs destinations.</p>
+                <p>Le chemin entre Figma et le code natif, automatisé et fiable. Gouvernance Sheet, Tokens Studio, push Git, sync bidirectionnelle. Un seul objectif : une source de vérité, plusieurs destinations.</p>
                 <div className="skill-tags">
                   <span className="skill-tag">Tokens Studio</span>
                   <span className="skill-tag">Style Dictionary</span>
@@ -198,7 +198,7 @@ export default function HomePage() {
               <div className="skill">
                 <div className="skill-num">/03</div>
                 <h3>Gouvernance &amp; adoption</h3>
-                <p>Audits, formations, accompagnement individuel des designers, contribution model. Un design system se vend autant qu'il se construit. J'embarque les équipes par la pédagogie, pas par le mandat.</p>
+                <p>Audits, formations, accompagnement des designers au quotidien, contribution model. Un design system se vend autant qu'il se construit. J'embarque les équipes par la preuve de valeur, jamais par le mandat.</p>
                 <div className="skill-tags">
                   <span className="skill-tag">Audits</span>
                   <span className="skill-tag">Formations</span>
@@ -210,7 +210,7 @@ export default function HomePage() {
               <div className="skill">
                 <div className="skill-num">/04</div>
                 <h3>Plateformes natives &amp; web</h3>
-                <p>Coordination design dev sur iOS (SwiftUI), Android (Jetpack Compose) et Web (Webflow / Lumos). Composants adaptatifs pilotés par variables, theming multi-dimensions, parité visuelle entre les plateformes.</p>
+                <p>Je coordonne design et dev sur iOS (SwiftUI), Android (Jetpack Compose) et Web (Webflow / Lumos). Composants adaptatifs, theming multi-dimensions, parité visuelle entre les plateformes.</p>
                 <div className="skill-tags">
                   <span className="skill-tag">Jetpack Compose</span>
                   <span className="skill-tag">SwiftUI</span>
@@ -222,7 +222,7 @@ export default function HomePage() {
               <div className="skill">
                 <div className="skill-num">/05</div>
                 <h3>Tooling sur mesure</h3>
-                <p>Je construis des outils internes pour fluidifier l'usage du DS au quotidien. Widgets pédagogiques, palettes HCT, explorateurs de tokens. L'idée est simple : faire gagner du temps aux designers et leur enlever les questions répétitives.</p>
+                <p>Des outils internes pour fluidifier l'usage du DS : widgets pédagogiques, palettes HCT, explorateurs de tokens. Le but est concret — faire gagner du temps aux designers et supprimer les questions répétitives.</p>
                 <div className="skill-tags">
                   <span className="skill-tag">Figma plugins</span>
                   <span className="skill-tag">HTML widgets</span>
@@ -234,7 +234,7 @@ export default function HomePage() {
               <div className="skill">
                 <div className="skill-num">/06</div>
                 <h3>Automatisation</h3>
-                <p>Pipelines de documentation, exports JSON machine-readable des composants, agents de génération, webhooks et notifications. L'automatisation arrive dans le DS comme une brique parmi d'autres, jamais comme une fin en soi.</p>
+                <p>Pipelines de documentation, exports JSON machine-readable, agents de génération, webhooks. L'automatisation est une brique du DS parmi d'autres. Jamais une fin en soi.</p>
                 <div className="skill-tags">
                   <span className="skill-tag">n8n</span>
                   <span className="skill-tag">Claude Code</span>
@@ -287,7 +287,7 @@ export default function HomePage() {
                 <div>
                   <div className="featured-eyebrow">Étude de cas · Accor</div>
                   <h3>Un DS, deux OS, <em>une seule source.</em></h3>
-                  <p>Refonte de l'architecture tokens du DS mobile d'Accor. Quatre niveaux, alignement web-app, pipeline automatisée jusqu'au code natif. Une transformation menée sans jamais l'imposer.</p>
+                  <p>Refonte de l'architecture tokens du DS mobile d'Accor. Quatre niveaux, alignement web-app, pipeline automatisée jusqu'au code natif. Un chantier mené en embarquant les équipes, pas en leur imposant.</p>
                   <span className="cta-glass primary" style={{ marginTop: '8px' }}>
                     <span>Lire l'étude de cas</span>
                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
@@ -315,17 +315,17 @@ export default function HomePage() {
               <div className="reveal-up">
                 <div className="principle-num">/01</div>
                 <h4>Les designers d'abord</h4>
-                <p>Un design system n'existe que parce que des humains l'utilisent au quotidien. Je passe autant de temps à former, accompagner et écouter les designers qu'à dessiner l'architecture. C'est ce qui fait la différence entre un système qui vit et un système qui dort.</p>
+                <p>Un design system n'existe que si des gens l'utilisent. Je passe autant de temps à former et écouter les designers qu'à concevoir l'architecture. C'est ça qui sépare un système vivant d'un système qui prend la poussière.</p>
               </div>
               <div className="reveal-up">
                 <div className="principle-num">/02</div>
                 <h4>Gouvernance avant automatisation</h4>
-                <p>Automatiser un système mal structuré ne fait qu'accélérer le chaos. On stabilise manuellement, on documente, on s'assure que tout le monde comprend, et seulement ensuite on automatise les passages qui se sont prouvés.</p>
+                <p>Automatiser un système mal structuré, c'est accélérer le chaos. On stabilise à la main, on documente, on s'assure que tout le monde suit. L'automatisation vient après, sur ce qui a fait ses preuves.</p>
               </div>
               <div className="reveal-up">
                 <div className="principle-num">/03</div>
                 <h4>Un DS se vend autant qu'il se construit</h4>
-                <p>L'adoption passe par la preuve de valeur, pas par le mandat. Le meilleur système au monde reste lettre morte s'il n'est pas désiré par ceux qui doivent l'utiliser. Je préfère une décision discutée à une décision parfaite.</p>
+                <p>Le meilleur système du monde reste inutile si personne n'en veut. L'adoption passe par la preuve de valeur, pas par la directive. Je préfère une décision discutée à une décision parfaite.</p>
               </div>
             </div>
           </div>
@@ -336,14 +336,14 @@ export default function HomePage() {
           <div className="wrap">
             <div className="section-meta">
               <div className="section-num reveal-up">/05 — À propos</div>
-              <h2 className="section-title reveal-up">Designer, manager, pont entre <em>les mondes</em>.</h2>
+              <h2 className="section-title reveal-up">Designer, manager, trait d'union entre <em>les mondes</em>.</h2>
             </div>
 
             <div className="about-content reveal-up">
-              <p>Je suis <strong>Design System Manager</strong>, spécialisé dans la structuration de DS multi-plateformes et multi-marques. Je viens de boucler une mission chez Accor sur le périmètre app iOS et Android, où on a refondu l'architecture des tokens et industrialisé le pipeline design vers code.</p>
-              <p>Mon métier, c'est de faire le pont entre design, dev et produit. Concevoir l'architecture, oui, mais surtout l'<strong>embarquer</strong>, la documenter et la rendre vivante au quotidien. Je crois qu'un bon DS Manager passe plus de temps à former et à convaincre qu'à dessiner. C'est exactement comme ça que je travaille.</p>
-              <p>Au-delà des tokens et des composants, ce qui m'intéresse vraiment dans ce métier c'est la <strong>relation avec les équipes</strong>. Comprendre les frictions, débloquer les designers, défendre une décision, en abandonner une autre quand on s'aperçoit qu'elle n'embarque personne. Le DS est un produit interne avant d'être un livrable.</p>
-              <p>Disponible à partir de <strong>fin avril 2026</strong> en freelance, sur des missions moyen ou long terme.</p>
+              <p>Je suis <strong>Design System Manager</strong>, spécialisé dans les DS multi-plateformes et multi-marques. Je viens de terminer une mission chez Accor sur le périmètre app iOS et Android : refonte de l'architecture tokens, industrialisation du pipeline design vers code.</p>
+              <p>Mon job, c'est de relier design, dev et produit. Concevoir l'architecture, oui. Mais surtout la faire <strong>vivre</strong> : documenter, former, convaincre. Un bon DS Manager passe plus de temps à expliquer et négocier qu'à dessiner. C'est exactement ce que je fais.</p>
+              <p>Ce qui m'intéresse le plus dans ce métier, c'est le <strong>travail avec les équipes</strong>. Comprendre les frictions, débloquer les designers, défendre un choix, en lâcher un autre quand il ne prend pas. Le DS est un produit interne. Pas un livrable qu'on dépose et qu'on oublie.</p>
+              <p>Disponible à partir de <strong>fin avril 2026</strong> en freelance. Missions moyen ou long terme.</p>
             </div>
           </div>
         </section>
