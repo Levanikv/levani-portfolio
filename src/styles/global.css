@@ -666,6 +666,28 @@ section:last-of-type { border-bottom: none; }
   position: relative;
   color: inherit;
 }
+.featured-project-img {
+  position: absolute;
+  right: -40px;
+  top: 50%;
+  transform: translateY(-50%) rotate(3deg);
+  width: 480px;
+  height: auto;
+  border-radius: 8px;
+  opacity: 0.18;
+  pointer-events: none;
+  mask-image: linear-gradient(to left, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0) 80%);
+  -webkit-mask-image: linear-gradient(to left, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0) 80%);
+  transition: opacity .5s, transform .5s;
+  z-index: 0;
+}
+.featured-project:hover .featured-project-img {
+  opacity: 0.28;
+  transform: translateY(-50%) rotate(2deg) scale(1.02);
+}
+@media (max-width: 900px) {
+  .featured-project-img { display: none; }
+}
 .featured-project::before {
   content: '';
   position: absolute;

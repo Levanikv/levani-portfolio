@@ -283,6 +283,7 @@ export default function HomePage() {
             </div>
 
             <Link to="/case-study-accor" className="featured-project reveal-up">
+              <img src="/images/hero-project.png" alt="" className="featured-project-img" />
               <div className="featured-project-inner">
                 <div>
                   <div className="featured-eyebrow">Étude de cas · Accor</div>
