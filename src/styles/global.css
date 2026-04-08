@@ -674,15 +674,15 @@ section:last-of-type { border-bottom: none; }
   width: 560px;
   height: auto;
   border-radius: 8px;
-  opacity: 0.45;
+  opacity: 0.8;
   pointer-events: none;
-  mask-image: linear-gradient(to left, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0) 70%);
-  -webkit-mask-image: linear-gradient(to left, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0) 70%);
+  mask-image: linear-gradient(to left, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0) 80%);
+  -webkit-mask-image: linear-gradient(to left, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0) 80%);
   transition: opacity .5s, transform .5s;
   z-index: 0;
 }
 .featured-project:hover .featured-project-img {
-  opacity: 0.6;
+  opacity: 0.9;
   transform: translateY(-50%) rotate(1.5deg) scale(1.02);
 }
 @media (max-width: 900px) {
