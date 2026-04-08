@@ -244,23 +244,6 @@ export default function HomePage() {
               </div>
             </div>
 
-            {/* Visual: token architecture + pipeline */}
-            <div className="section-visuals">
-              <div className="img-frame light reveal-up">
-                <img src="/images/semantic-tokens.png" alt="Table des semantic tokens" />
-                <div className="img-caption">
-                  <span className="badge">Tokens</span>
-                  <strong>Table des semantic tokens.</strong> Chaque token documenté avec sa description, ses valeurs light/dark, et son nom natif iOS et Android.
-                </div>
-              </div>
-              <div className="img-frame reveal-up">
-                <img src="/images/figma-variables.png" alt="Variables Figma synchronisées" />
-                <div className="img-caption">
-                  <span className="badge">Figma</span>
-                  <strong>230 variables synchronisées.</strong> Un token change dans le Sheet, il change partout — Figma compris.
-                </div>
-              </div>
-            </div>
           </div>
         </section>
 
@@ -350,13 +333,6 @@ export default function HomePage() {
               </div>
             </div>
 
-            <div className="img-frame light reveal-up" style={{ marginTop: '80px' }}>
-              <img src="/images/ios-android.png" alt="Composants iOS et Android adaptatifs" />
-              <div className="img-caption">
-                <span className="badge">En pratique</span>
-                <strong>Un composant, deux OS, plusieurs breakpoints.</strong> iOS 375 à 1210, Android 360 à 1440 — tous gérés par les mêmes variables.
-              </div>
-            </div>
           </div>
         </section>
 

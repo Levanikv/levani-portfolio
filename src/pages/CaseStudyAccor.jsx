@@ -244,6 +244,14 @@ export default function CaseStudyAccor() {
               </div>
             </div>
 
+            <div className="img-frame reveal-up">
+              <img src="/images/hero-project.png" alt="Vue d'ensemble du DS mobile Accor" />
+              <div className="img-caption">
+                <span className="badge">Vue d'ensemble</span>
+                <strong>Le DS mobile Accor après la refonte.</strong> Composants, variables, tokens studio, et l'app en production — le tout aligné sur la même source de vérité.
+              </div>
+            </div>
+
             <div className="prose">
               <p>On n'a pas réinventé le langage. Le système suivait déjà une logique Material. <strong>On a rationalisé le naming, complété les familles de couleurs, et tout documenté.</strong> Un vrai changement d'architecture, mais pas de rupture. C'est cette continuité qui a rendu l'adoption possible.</p>
             </div>
@@ -564,6 +572,14 @@ export default function CaseStudyAccor() {
                 <svg className="result-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6M9 13h6M9 17h6"/></svg>
                 <h4>Documentation</h4>
                 <p>Doc générée depuis les JSON Anova, publiée sur Supernova.</p>
+              </div>
+            </div>
+
+            <div className="img-frame light reveal-up" style={{ marginTop: '64px' }}>
+              <img src="/images/ios-android.png" alt="Composants adaptatifs iOS et Android" />
+              <div className="img-caption">
+                <span className="badge">Résultat concret</span>
+                <strong>Un composant, deux OS, plusieurs breakpoints.</strong> Le même composant s'adapte à iOS et Android, géré par les mêmes variables. Plus besoin de forker.
               </div>
             </div>
 
