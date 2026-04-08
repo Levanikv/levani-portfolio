@@ -293,11 +293,13 @@ export default function HomePage() {
                     <span>Lire l'étude de cas</span>
                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
                   </span>
-                </div>
-                <div className="featured-stats">
-                  <div className="featured-stat"><div className="featured-stat-num" data-target="4" ref={el => statRefs.current[0] = el}>0</div><div className="featured-stat-label">Niveaux tokens</div></div>
-                  <div className="featured-stat"><div className="featured-stat-num" data-target="5" ref={el => statRefs.current[1] = el}>0</div><div className="featured-stat-label">Dimensions theming</div></div>
-                  <div className="featured-stat"><div className="featured-stat-num" data-target="2" ref={el => statRefs.current[2] = el}>0</div><div className="featured-stat-label">Plateformes natives</div></div>
+                  <div className="featured-stats-inline">
+                    <span className="featured-stat-inline"><strong>4</strong> niveaux tokens</span>
+                    <span className="featured-stat-sep">·</span>
+                    <span className="featured-stat-inline"><strong>5</strong> dimensions theming</span>
+                    <span className="featured-stat-sep">·</span>
+                    <span className="featured-stat-inline"><strong>2</strong> plateformes natives</span>
+                  </div>
                 </div>
               </div>
             </Link>
