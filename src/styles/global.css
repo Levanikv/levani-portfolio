@@ -668,22 +668,22 @@ section:last-of-type { border-bottom: none; }
 }
 .featured-project-img {
   position: absolute;
-  right: -40px;
+  right: -20px;
   top: 50%;
-  transform: translateY(-50%) rotate(3deg);
-  width: 480px;
+  transform: translateY(-50%) rotate(2deg);
+  width: 560px;
   height: auto;
   border-radius: 8px;
-  opacity: 0.18;
+  opacity: 0.45;
   pointer-events: none;
-  mask-image: linear-gradient(to left, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0) 80%);
-  -webkit-mask-image: linear-gradient(to left, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0) 80%);
+  mask-image: linear-gradient(to left, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0) 70%);
+  -webkit-mask-image: linear-gradient(to left, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0) 70%);
   transition: opacity .5s, transform .5s;
   z-index: 0;
 }
 .featured-project:hover .featured-project-img {
-  opacity: 0.28;
-  transform: translateY(-50%) rotate(2deg) scale(1.02);
+  opacity: 0.6;
+  transform: translateY(-50%) rotate(1.5deg) scale(1.02);
 }
 @media (max-width: 900px) {
   .featured-project-img { display: none; }
