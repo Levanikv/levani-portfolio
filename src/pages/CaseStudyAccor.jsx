@@ -508,6 +508,14 @@ export default function CaseStudyAccor() {
               </div>
             </div>
 
+            <div className="img-frame light">
+              <img src="/images/supernova-doc.png" alt="Documentation Supernova — composant Advisory" />
+              <div className="img-caption">
+                <span className="badge">Documentation</span>
+                <strong>La doc publiée sur Supernova.</strong> Chaque composant a sa page : anatomy, variants, propriétés, breakpoints, états. Lisible par les designers comme par les développeurs.
+              </div>
+            </div>
+
             <div className="prose">
               <p>En parallèle, une pipeline de changelog automatisé pour notifier l'équipe à chaque évolution du DS. Une partie est en place. Le reste sera continué après mon départ.</p>
             </div>

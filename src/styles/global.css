@@ -671,7 +671,7 @@ section:last-of-type { border-bottom: none; }
   right: -20px;
   top: 50%;
   transform: translateY(-50%) rotate(2deg);
-  width: 560px;
+  width: 80%;
   height: auto;
   border-radius: 8px;
   opacity: 0.8;
