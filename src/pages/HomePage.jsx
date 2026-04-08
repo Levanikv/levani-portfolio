@@ -136,9 +136,9 @@ export default function HomePage() {
                 Disponible fin avril 2026
               </div>
               <h1 className="hero-display">
-                <span className="line"><span className="word">JE STRUCTURE</span></span>
-                <span className="line"><span className="word">VOS DESIGN</span></span>
-                <span className="line"><span className="word"><span className="accent">SYSTEMS.</span></span></span>
+                <span className="line"><span className="word">DESIGN SYSTEMS</span></span>
+                <span className="line"><span className="word">FOR</span> <span className="word"><span className="accent">REAL</span></span></span>
+                <span className="line"><span className="word"><span className="accent">PRODUCTS.</span></span></span>
               </h1>
             </div>
 
