@@ -602,6 +602,17 @@ section:last-of-type { border-bottom: none; }
   .skill { padding: 40px 28px; }
 }
 
+/* ----------- SECTION VISUALS ----------- */
+.section-visuals {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  margin-top: var(--space-block);
+}
+@media (max-width: 720px) {
+  .section-visuals { grid-template-columns: 1fr; }
+}
+
 /* ----------- STACK ----------- */
 .stack {
   margin-top: var(--space-block);

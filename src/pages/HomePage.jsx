@@ -143,7 +143,7 @@ export default function HomePage() {
             </div>
 
             <div className="hero-description">
-              <p>Je conçois des design systems pour des apps mobiles et des produits digitaux. Mon objectif : rendre les produits plus cohérents et les équipes plus efficaces.</p>
+              <p>Je conçois des design systems pour des apps mobiles et des produits digitaux. Des produits plus cohérents, des équipes plus rapides.</p>
               <a href="#contact" className="cta-glass primary">
                 <span>Me contacter</span>
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M7 17L17 7M7 7h10v10"/></svg>
@@ -198,7 +198,7 @@ export default function HomePage() {
               <div className="skill">
                 <div className="skill-num">/03</div>
                 <h3>Gouvernance &amp; adoption</h3>
-                <p>Un design system que personne n'utilise ne sert à rien. Audits, formations, accompagnement terrain. Je fais en sorte que les équipes l'adoptent parce qu'il leur fait gagner du temps — pas parce qu'on leur impose.</p>
+                <p>Un design system que personne n'utilise ne sert à rien. Audits, formations, accompagnement terrain. Les équipes l'adoptent parce qu'il leur fait gagner du temps, pas parce qu'on leur a dit.</p>
                 <div className="skill-tags">
                   <span className="skill-tag">Audits</span>
                   <span className="skill-tag">Formations</span>
@@ -240,6 +240,24 @@ export default function HomePage() {
                   <span className="skill-tag">Claude Code</span>
                   <span className="skill-tag">Anova JSON</span>
                   <span className="skill-tag">Supernova</span>
+                </div>
+              </div>
+            </div>
+
+            {/* Visual: token architecture + pipeline */}
+            <div className="section-visuals">
+              <div className="img-frame light reveal-up">
+                <img src="/images/semantic-tokens.png" alt="Table des semantic tokens" />
+                <div className="img-caption">
+                  <span className="badge">Tokens</span>
+                  <strong>Table des semantic tokens.</strong> Chaque token documenté avec sa description, ses valeurs light/dark, et son nom natif iOS et Android.
+                </div>
+              </div>
+              <div className="img-frame reveal-up">
+                <img src="/images/figma-variables.png" alt="Variables Figma synchronisées" />
+                <div className="img-caption">
+                  <span className="badge">Figma</span>
+                  <strong>230 variables synchronisées.</strong> Un token change dans le Sheet, il change partout — Figma compris.
                 </div>
               </div>
             </div>
@@ -318,17 +336,25 @@ export default function HomePage() {
               <div className="reveal-up">
                 <div className="principle-num">/01</div>
                 <h4>Les designers d'abord</h4>
-                <p>Un design system n'existe que si des gens l'utilisent. Je passe autant de temps à former et écouter les designers qu'à concevoir l'architecture. C'est la différence entre un système vivant et un système oublié.</p>
+                <p>Un design system n'existe que si des gens l'utilisent. Je passe autant de temps à former et écouter les designers qu'à concevoir l'architecture. Sinon le système finit sur une étagère.</p>
               </div>
               <div className="reveal-up">
                 <div className="principle-num">/02</div>
                 <h4>Gouvernance avant automatisation</h4>
-                <p>Automatiser un système mal structuré, c'est accélérer le chaos. On stabilise d'abord, on documente, on vérifie que ça tient. L'automatisation vient après — sur ce qui a fait ses preuves.</p>
+                <p>Automatiser un système mal structuré, ça accélère le chaos. On stabilise d'abord, on documente. L'automatisation vient après, sur ce qui tient déjà.</p>
               </div>
               <div className="reveal-up">
                 <div className="principle-num">/03</div>
                 <h4>Un DS se vend autant qu'il se construit</h4>
-                <p>Le meilleur système du monde reste inutile si personne n'en veut. L'adoption passe par la preuve, pas par la directive. J'ai appris ça chez Accor : une décision discutée vaut mieux qu'une décision parfaite.</p>
+                <p>Le meilleur système du monde reste inutile si personne n'en veut. Chez Accor, j'ai appris ça : une décision discutée vaut mieux qu'une décision parfaite.</p>
+              </div>
+            </div>
+
+            <div className="img-frame light reveal-up" style={{ marginTop: '80px' }}>
+              <img src="/images/ios-android.png" alt="Composants iOS et Android adaptatifs" />
+              <div className="img-caption">
+                <span className="badge">En pratique</span>
+                <strong>Un composant, deux OS, plusieurs breakpoints.</strong> iOS 375 à 1210, Android 360 à 1440 — tous gérés par les mêmes variables.
               </div>
             </div>
           </div>
@@ -343,9 +369,9 @@ export default function HomePage() {
             </div>
 
             <div className="about-content reveal-up">
-              <p>Je suis product designer, spécialisé en design systems. Je travaille avec des équipes produit pour structurer leurs interfaces et améliorer leur manière de construire. Dernière mission : Accor, périmètre app iOS et Android. Refonte des tokens, pipeline design-to-code, et adoption par quatre product designers qui n'étaient pas demandeurs au départ.</p>
-              <p>Mon job, c'est de relier design, dev et produit. Concevoir l'architecture, oui. Mais surtout la faire <strong>vivre</strong> : documenter, former, convaincre. Je passe plus de temps à expliquer qu'à dessiner. Et c'est normal.</p>
-              <p>Je ne lâche pas après la livraison. Je reste dans les maquettes, les daily, les reviews. Je capte les frictions, je débloque les designers, je défends un choix et j'en lâche un autre quand il ne prend pas. J'aime les choses simples, bien faites, et qui tiennent dans le temps.</p>
+              <p>Product designer, spécialisé design systems. Je bosse avec des équipes produit pour structurer leurs interfaces et améliorer leur façon de construire. Dernière mission : Accor, apps iOS et Android. Refonte des tokens, pipeline design-to-code, et adoption par quatre product designers qui n'avaient rien demandé.</p>
+              <p>Mon job c'est de relier design, dev et produit. Concevoir l'architecture, oui. Mais surtout la faire <strong>vivre</strong> — documenter, former, convaincre. Je passe plus de temps à expliquer qu'à dessiner. C'est le vrai taf.</p>
+              <p>Je ne disparais pas après la livraison. Je reste dans les maquettes, les daily, les reviews. Quand un truc coince, je le vois. J'aime les choses simples, bien faites, et qui tiennent dans le temps.</p>
               <p>Disponible à partir de <strong>fin avril 2026</strong> en freelance. Missions moyen ou long terme.</p>
             </div>
           </div>
