@@ -1838,6 +1838,24 @@ footer {
   flex-wrap: wrap;
 }
 
+/* CV Langs */
+.cv-section-compact { padding: var(--space-block) 0; }
+.cv-langs {
+  display: flex;
+  gap: 56px;
+}
+.cv-lang h4 {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--cream-bright);
+  margin-bottom: 4px;
+}
+.cv-lang p {
+  font-size: 14px;
+  color: var(--cream-dim);
+}
+
 /* CV Responsive */
 @media (max-width: 720px) {
   .cv-header { padding: 120px 0 56px; }
