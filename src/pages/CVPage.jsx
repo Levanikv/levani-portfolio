@@ -48,18 +48,18 @@ export default function CVPage() {
 
           {/* HEADER */}
           <header className="cv-header">
-            <div className="cv-tag">Disponible — Freelance</div>
+            <div className="cv-tag">Disponible mai 2026</div>
             <h1 className="cv-name">Levani<br />Kvaliashvili</h1>
-            <p className="cv-role">Design System Manager</p>
-            <p className="cv-intro">Product designer spécialisé design systems. Je structure des DS pour des produits complexes, multi-plateformes, multi-marques. Mon truc : que le système tienne dans la durée et que les gens s'en servent vraiment.</p>
+            <p className="cv-role">Design System Manager · Freelance</p>
+            <p className="cv-intro">7 ans dans le design produit, dont 3 concentrés sur les Design Systems. Mon métier : faire en sorte que ce que dessine le designer dans Figma soit vraiment ce que livre le dev — sans approximation, sans aller-retour, sans composants qui dérivent.</p>
             <div className="cv-contact-row">
               <a href="mailto:levanikv.pro@gmail.com">levanikv.pro@gmail.com</a>
               <span className="cv-sep">·</span>
               <span>+33 7 67 28 20 49</span>
               <span className="cv-sep">·</span>
-              <a href="https://www.linkedin.com/in/levani-kvaliashvili/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+              <a href="https://levanikv-dsm.com" target="_blank" rel="noopener noreferrer">levanikv-dsm.com</a>
               <span className="cv-sep">·</span>
-              <span>Paris, France</span>
+              <a href="https://www.linkedin.com/in/levani-kvaliashvili/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
             </div>
           </header>
 
@@ -69,24 +69,22 @@ export default function CVPage() {
 
             {/* ACCOR */}
             <div className="cv-entry cv-reveal">
-              <div className="cv-entry-date">Déc. 2024 — Mai 2026</div>
+              <div className="cv-entry-date">Déc. 2024 — Avr. 2026</div>
               <div className="cv-entry-content">
-                <h3>Design System Manager — Accor</h3>
-                <p className="cv-entry-sub">Freelance · Paris · App iOS &amp; Android</p>
+                <h3>Accor — Design System Manager</h3>
+                <p className="cv-entry-sub">Issy-les-Moulineaux · Freelance</p>
                 <ul>
-                  <li>Coordination du DS cross-produits et cross-environnements (web + apps mobiles), en lien avec la Lead Design System</li>
-                  <li>Refonte de l'architecture tokens en 4 niveaux (Core, Brand, Semantic, Component)</li>
-                  <li>Pipeline automatisée : Google Sheet → Tokens Studio → Git → Figma + code natif SwiftUI/Compose</li>
-                  <li>Gestion avancée des tokens via Tokens Studio et variables natives Figma</li>
-                  <li>Refactor des composants et alignement avec les référents DS Tech iOS/Android</li>
-                  <li>Formation des designers et création de widgets Figma pour l'autonomie sur les tokens</li>
-                  <li>Intégration des normes d'accessibilité RGAA/WCAG dans les composants</li>
-                  <li>Intégration de l'IA dans le workflow de documentation du DS</li>
-                  <li>Animation d'ateliers avec Design Ops, Brand System, UX Writing et Accessibilité</li>
-                  <li>Documentation complète et suivi via Jira/Confluence</li>
+                  <li>Coordination du Design System cross-produits et cross-environnements (web, iOS, Android), en lien avec la Lead Design System.</li>
+                  <li>Gestion avancée des design tokens via Tokens Studio et variables natives Figma — cohérence visuelle entre plateformes.</li>
+                  <li>Refactor des composants et alignement avec les référents DS Tech iOS et Android.</li>
+                  <li>Automatisation de la synchronisation des exports de tokens vers la tech.</li>
+                  <li>Animation d'ateliers de co-construction avec les équipes Produit, Design Ops, Brand System, UX Writing et Accessibilité.</li>
+                  <li>Intégration des normes RGAA / WCAG dans la conception des composants.</li>
+                  <li>Création de widgets Figma et formation des designers pour faciliter l'adoption du DS.</li>
+                  <li>Documentation complète, comptes rendus réguliers et suivi via Jira / Confluence.</li>
                 </ul>
                 <div className="cv-tags">
-                  <span>Figma</span><span>Tokens Studio</span><span>Style Dictionary</span><span>Git</span><span>SwiftUI</span><span>Jetpack Compose</span><span>Supernova</span><span>HCT</span><span>Jira</span>
+                  <span>Figma</span><span>Tokens Studio</span><span>Style Dictionary</span><span>Jetpack Compose</span><span>SwiftUI</span><span>Supernova</span><span>n8n</span>
                 </div>
               </div>
             </div>
@@ -95,16 +93,15 @@ export default function CVPage() {
             <div className="cv-entry cv-reveal">
               <div className="cv-entry-date">Oct. 2023 — Juin 2024</div>
               <div className="cv-entry-content">
-                <h3>Design System Manager — EDF</h3>
-                <p className="cv-entry-sub">Freelance · Paris</p>
+                <h3>EDF — Design System Manager</h3>
+                <p className="cv-entry-sub">Paris · Hybride · Freelance</p>
                 <ul>
-                  <li>Création d'un design system multi-projets et multi-environnements from scratch</li>
-                  <li>Gestion avancée des tokens avec Tokens Studio (couleurs, typographies, espacements)</li>
-                  <li>Variables natives Figma pour la personnalisation et la modularité</li>
-                  <li>Méthodologie atomique (atome, molécule, organisme) pour la réutilisabilité</li>
-                  <li>Intégration de slots dans les composants pour la flexibilité par projet</li>
-                  <li>Création des composants from scratch — contrainte : bibliothèque Angular</li>
-                  <li>Documentation du DS</li>
+                  <li>Création d'un design system multi-projets et multi-environnements, from scratch, pensé pour la flexibilité et la modularité.</li>
+                  <li>Gestion des tokens avec Tokens Studio — contrôle précis des couleurs, typographies et espacements.</li>
+                  <li>Variables natives Figma pour la personnalisation et la modularité.</li>
+                  <li>Méthodologie atomique (atome / molécule / organisme), slots dans les composants pour s'adapter à chaque projet.</li>
+                  <li>Composants créés from scratch sous contrainte d'une bibliothèque cible Angular.</li>
+                  <li>Documentation complète du DS.</li>
                 </ul>
                 <div className="cv-tags">
                   <span>Figma</span><span>Tokens Studio</span><span>Angular</span><span>Atomic Design</span>
@@ -114,35 +111,38 @@ export default function CVPage() {
 
             {/* PMU */}
             <div className="cv-entry cv-reveal">
-              <div className="cv-entry-date">Sept. 2021 — Oct. 2024</div>
+              <div className="cv-entry-date">Sept. 2021 — Juin 2022<br />Juin — Oct. 2023</div>
               <div className="cv-entry-content">
-                <h3>Product Designer &amp; DS Manager — PMU</h3>
-                <p className="cv-entry-sub">Freelance · Paris · Deux missions (2021-2022 puis 2023-2024)</p>
+                <h3>PMU — Lead UX/UI &amp; Design System</h3>
+                <p className="cv-entry-sub">Paris · Freelance</p>
                 <ul>
-                  <li>Conception et maintien d'un design system web/mobile</li>
-                  <li>Collaboration avec les Product Owners et les développeurs pour l'intégration technique</li>
-                  <li>Migration du DS vers les nouvelles features Figma (variables, etc.)</li>
-                  <li>Documentation des composants et Design Ops (optimisation des fichiers Figma)</li>
+                  <li>Conception et maintien d'un design system web et mobile.</li>
+                  <li>Mise à jour du DS vers les nouvelles features Figma (variables, modes).</li>
+                  <li>Collaboration étroite avec les Product Owners et les développeurs pour assurer l'intégration technique.</li>
+                  <li>Refonte des parcours UX/UI avec impact mesuré sur la satisfaction client (notation App Store).</li>
+                  <li>Rebranding et mise en place d'une nouvelle charte.</li>
+                  <li>Design Ops — optimisation et nettoyage des fichiers Figma.</li>
                 </ul>
                 <div className="cv-tags">
-                  <span>Figma</span><span>Design Ops</span><span>Web</span><span>Mobile</span>
+                  <span>Figma</span><span>Design System</span><span>iOS / Android / Web</span>
                 </div>
               </div>
             </div>
 
             {/* ELSAN */}
             <div className="cv-entry cv-reveal">
-              <div className="cv-entry-date">Jan. — Avril 2023</div>
+              <div className="cv-entry-date">Janv. — Avr. 2023</div>
               <div className="cv-entry-content">
-                <h3>UI Designer &amp; DS Manager — Elsan</h3>
-                <p className="cv-entry-sub">Freelance · Paris</p>
+                <h3>Elsan Care — UI &amp; Design System</h3>
+                <p className="cv-entry-sub">Paris · Freelance</p>
                 <ul>
-                  <li>Création de la base du design system en collaboration avec les équipes dev</li>
-                  <li>Gestion des tokens pour les fondations</li>
-                  <li>Documentation du DS</li>
+                  <li>Création des fondations du design system (tokens, typographie, espacements) en collaboration avec les équipes dev.</li>
+                  <li>Structuration atomique des composants UI : états, variantes, documentation Figma.</li>
+                  <li>Refonte des parcours utilisateurs sur l'app Elsan Care, alignée sur les contraintes métier santé.</li>
+                  <li>Prototypage et tests utilisateurs pour valider les évolutions avant implémentation.</li>
                 </ul>
                 <div className="cv-tags">
-                  <span>Figma</span><span>Tokens</span>
+                  <span>Figma</span><span>Tokens</span><span>Storybook</span>
                 </div>
               </div>
             </div>
@@ -151,32 +151,33 @@ export default function CVPage() {
             <div className="cv-entry cv-reveal">
               <div className="cv-entry-date">Mars 2021 — Juin 2022</div>
               <div className="cv-entry-content">
-                <h3>UI Designer &amp; DS Manager — Franprix</h3>
-                <p className="cv-entry-sub">Freelance · Paris</p>
+                <h3>Franprix — UI &amp; Design System</h3>
+                <p className="cv-entry-sub">Paris · Freelance</p>
                 <ul>
-                  <li>Maintien du design system pendant les sprints de conception UX/UI</li>
-                  <li>Optimisation du DS et création de nouveaux composants pour accélérer les sprints</li>
+                  <li>Maintien et évolution du design system pendant les sprints UX/UI.</li>
+                  <li>Création de nouveaux composants et variantes pour accompagner les besoins produit.</li>
+                  <li>Alignement avec les développeurs pour garantir la parité Figma ↔ code.</li>
+                  <li>Optimisation continue de la librairie Figma et de sa documentation.</li>
                 </ul>
                 <div className="cv-tags">
-                  <span>Figma</span><span>Agile</span>
+                  <span>Figma</span><span>Design System</span>
                 </div>
               </div>
             </div>
 
-            {/* EARLIER MISSIONS */}
+            {/* USERADGENTS */}
             <div className="cv-entry cv-reveal">
-              <div className="cv-entry-date">2017 — 2021</div>
+              <div className="cv-entry-date">Févr. — Sept. 2022</div>
               <div className="cv-entry-content">
-                <h3>Product Designer — Missions freelance</h3>
-                <p className="cv-entry-sub">Freelance · Paris</p>
+                <h3>Useradgents (agence) — UI Designer</h3>
+                <p className="cv-entry-sub">Paris · Freelance</p>
                 <ul>
-                  <li><strong>BS Move</strong> (nov. 2021 — août 2021) — App et site web dans le domaine du déménagement. Conception UX/UI complète.</li>
-                  <li><strong>Hyperealist</strong> (mars — mai 2021) — UI design et développement Webflow.</li>
-                  <li><strong>Toobeeb</strong> (fév. — juin 2020) — Refonte UX/UI d'une app de télé-consultation médicale. User flows, wireframes, prototypage. Design de l'app iOS.</li>
-                  <li><strong>Projets divers</strong> (2017 — 2019) — UX/UI design et intégration front-end pour des clients variés.</li>
+                  <li>Projets UI mobile et web pour Franprix, Longchamp, Sézane, Equidia.</li>
+                  <li>Design sprints et création de design systems pour assurer cohérence visuelle et fonctionnelle.</li>
+                  <li>Méthodologies agiles, livraison rapide en contexte agence.</li>
                 </ul>
                 <div className="cv-tags">
-                  <span>UX/UI</span><span>Webflow</span><span>Prototypage</span><span>iOS</span><span>Front-end</span>
+                  <span>Figma</span><span>Design System</span>
                 </div>
               </div>
             </div>
@@ -188,65 +189,36 @@ export default function CVPage() {
 
             <div className="cv-skills-grid cv-reveal">
               <div className="cv-skill-group">
-                <h4>Design System</h4>
+                <h4>Design Systems</h4>
                 <ul>
-                  <li>Architecture de tokens (4 niveaux)</li>
-                  <li>Gouvernance &amp; contribution model</li>
-                  <li>Pipeline design → code</li>
-                  <li>Atomic Design (atome → organisme)</li>
-                  <li>Theming multi-dimensions</li>
-                  <li>Documentation structurée</li>
-                </ul>
-              </div>
-              <div className="cv-skill-group">
-                <h4>Design</h4>
-                <ul>
-                  <li>UX/UI Design</li>
-                  <li>Prototypage interactif</li>
-                  <li>Design Thinking</li>
-                  <li>Motion design</li>
-                  <li>Data Analysis</li>
+                  <li>Design Tokens</li>
+                  <li>Atomic Methodology</li>
+                  <li>RGAA / WCAG</li>
+                  <li>Design Ops</li>
+                  <li>Prototypage</li>
+                  <li>UX / UI Design</li>
                 </ul>
               </div>
               <div className="cv-skill-group">
                 <h4>Outils</h4>
                 <ul>
-                  <li>Figma (variables, plugins)</li>
+                  <li>Figma</li>
                   <li>Tokens Studio</li>
-                  <li>Supernova, Storybook</li>
-                  <li>Protopie, Suite Adobe</li>
-                  <li>Webflow, HTML/CSS</li>
-                  <li>Git, n8n, Notion, Miro</li>
+                  <li>Style Dictionary</li>
+                  <li>Supernova</li>
+                  <li>Storybook</li>
+                  <li>Webflow</li>
+                  <li>n8n</li>
+                  <li>Jira / Confluence</li>
                 </ul>
               </div>
               <div className="cv-skill-group">
-                <h4>Méthode &amp; collaboration</h4>
+                <h4>Langues</h4>
                 <ul>
-                  <li>Méthode agile (Scrum)</li>
-                  <li>Coordination design-dev</li>
-                  <li>Formation &amp; accompagnement</li>
-                  <li>Accessibilité RGAA/WCAG</li>
-                  <li>Jira, Confluence</li>
+                  <li>Français · Natif</li>
+                  <li>Anglais · Courant</li>
+                  <li>Géorgien · Natif</li>
                 </ul>
-              </div>
-            </div>
-          </section>
-
-          {/* LANGUES */}
-          <section className="cv-section cv-section-compact">
-            <h2 className="cv-section-title cv-reveal">Langues</h2>
-            <div className="cv-langs cv-reveal">
-              <div className="cv-lang">
-                <h4>Français</h4>
-                <p>Courant</p>
-              </div>
-              <div className="cv-lang">
-                <h4>Anglais</h4>
-                <p>Professionnel</p>
-              </div>
-              <div className="cv-lang">
-                <h4>Géorgien</h4>
-                <p>Langue maternelle</p>
               </div>
             </div>
           </section>
@@ -259,7 +231,7 @@ export default function CVPage() {
               <div className="cv-entry-date">2022</div>
               <div className="cv-entry-content">
                 <h3>The Design Crew</h3>
-                <p>Product Design — Advanced batch</p>
+                <p>Product Design — Advanced</p>
               </div>
             </div>
 
@@ -267,7 +239,7 @@ export default function CVPage() {
               <div className="cv-entry-date">2017 — 2018</div>
               <div className="cv-entry-content">
                 <h3>MJM Graphic Design</h3>
-                <p>Concepteur de produits digitaux</p>
+                <p>Concepteur produits digitaux</p>
               </div>
             </div>
 
@@ -275,7 +247,7 @@ export default function CVPage() {
               <div className="cv-entry-date">2014 — 2015</div>
               <div className="cv-entry-content">
                 <h3>HETIC</h3>
-                <p>Concepteur de produits digitaux</p>
+                <p>Bachelor Webdesign / Dev</p>
               </div>
             </div>
           </section>
