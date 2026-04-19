@@ -74,17 +74,17 @@ export default function CVPage() {
                 <h3>Accor — Design System Manager</h3>
                 <p className="cv-entry-sub">Issy-les-Moulineaux · Freelance</p>
                 <ul>
-                  <li>Coordination du Design System cross-produits et cross-environnements (web, iOS, Android), en lien avec la Lead Design System.</li>
+                  <li>Coordination du Design System cross-produits et cross-environnements (web, iOS, Android), en lien avec le Lead Design System.</li>
                   <li>Gestion avancée des design tokens via Tokens Studio et variables natives Figma — cohérence visuelle entre plateformes.</li>
-                  <li>Refactor des composants et alignement avec les référents DS Tech iOS et Android.</li>
-                  <li>Automatisation de la synchronisation des exports de tokens vers la tech.</li>
+                  <li>Refactor des composants piloté par agents IA (Claude + MCP Figma) et alignement avec les référents DS Tech iOS et Android.</li>
+                  <li>Automatisation de la synchronisation des tokens vers la tech et des changelogs DS via pipelines n8n + LLM.</li>
                   <li>Animation d'ateliers de co-construction avec les équipes Produit, Design Ops, Brand System, UX Writing et Accessibilité.</li>
                   <li>Intégration des normes RGAA / WCAG dans la conception des composants.</li>
-                  <li>Création de widgets Figma et formation des designers pour faciliter l'adoption du DS.</li>
+                  <li>Mise en place de workflows IA (MCP Figma, audits et génération de composants assistés par Claude) pour accélérer l'adoption du DS.</li>
                   <li>Documentation complète, comptes rendus réguliers et suivi via Jira / Confluence.</li>
                 </ul>
                 <div className="cv-tags">
-                  <span>Figma</span><span>Tokens Studio</span><span>Style Dictionary</span><span>Jetpack Compose</span><span>SwiftUI</span><span>Supernova</span><span>n8n</span>
+                  <span>Figma</span><span>Tokens Studio</span><span>Style Dictionary</span><span>Jetpack Compose</span><span>SwiftUI</span><span>Supernova</span><span>n8n</span><span>Claude / MCP</span>
                 </div>
               </div>
             </div>
